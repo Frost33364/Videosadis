@@ -1,0 +1,8 @@
+const acceptBtn = document.getElementById('acceptBtn');
+const jumpscare = document.getElementById('jumpscare');
+const scream = document.getElementById('scream');
+
+acceptBtn.addEventListener('click', () => {
+  jumpscare.classList.remove('hidden');
+  scream.play();
+});
